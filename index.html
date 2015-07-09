@@ -1,10 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
+
 <head>
   <meta charset="UTF-8">
   <title>instagram</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="jquery-1.11.3.min.js"></script>
+  <script src="instagram.js"></script>
+  <script type="text/javascript">
+    $(function () {
+      $(".instagram").instagram({
+        location: {
+          id: 828254
+        },
+        show: 12, //表示件数
+        clientId: '6c04bdf3fc8744099118ab6b28295156 '
+      });
+    });
+  </script>
 </head>
+
 <body>
-  
+<div class="instagram"></div>
 </body>
+
 </html>
